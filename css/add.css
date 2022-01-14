@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.add{
+    display: flex;
+    margin:100px 400px;
+
+  }
+  
+
+
+  .adddiv{
+    width: 50%;
+   
+  }
+  
+  .adddiv h3{
+     font-size: 30px;
+     text-align: left;
+     padding-top: 80px;
+  }
+  
+  .adddiv p{
+     text-align: justify;
+     font-size: 20px;
+    
+  }
+
+  .adddiv img{
+      width: 100%;
+  }
+  .adddiv  a{
+      text-decoration: none;
+  }
+
+  
+.button {
+    text-decoration: none;
+   color: white;
+   
+    background-color: rgb(247, 121, 142);
+     padding: 10px 25px ; 
+     border-radius: 30px;   
+ }

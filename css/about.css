@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.logo img{
+  width:12%;
+  float: right;
+  position: absolute;
+  right: 20px;;
+ top: 20px;
+}
+
+
+section{
+  margin: 100px;
+}
+
+.about-we{
+  display: flex;
+   height: 500px;
+   justify-content: center;
+  
+}
+
+.we{
+  width: 50%;
+  padding: 40px;
+  margin:   0 150px;
+  box-shadow: 1px 5px 5px rgb(134, 134, 134);
+}
+
+.we img{
+  width:60%;
+  
+}
+.we h6{
+  font-size: 20px;
+}
+.we p{
+  font-size: 14px;
+}
+
+
+.about-products{
+  margin-top: 200px;
+}
+
+.about-products h5{
+  color:  rgb(243, 61, 91);
+  font-size: 32px;
+  font-weight: bold;
+}
+
+
+
+.about-products p{
+
+  text-align: justify;
+  font-size: 20px;
+
+}
+
+.about-products b{
+	font-size: 25px;
+	color: rgb(243, 61, 91);
+
+}
+
+
+.overflowtext{
+  width: 90%;
+  height: 300px;
+  box-shadow: 10px 20px solid black;
+  text-align: justify;
+  margin:20px 50px;
+  overflow-x: hidden;
+  
+  
+}
+
+/* slidemoving text */
+.slidemove {
+
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 80px 50px 150px 60px;
+  color: black;
+}
+
+.box {
+ /* background-color: grey;*/
+   background-image: linear-gradient(180deg, rgb(248, 82, 110),  rgb(247, 121, 142));
+   color: white;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 60px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(400%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+
+
+}
+
+.box h4 {
+  font-size: 20px;
+}
+
+
+/*footer*/
+
+.footer{
+  display: flex;
+	color :black;
+	text-align: left;
+  margin-top: 150px;
+	background-color: rgb(247, 121, 142);
+	padding-top: 10px;
+  padding-left: 30px;
+}
+.footer{
+  margin:40px 0 0;
+}
+.footer1{
+ width: 50%; 
+}
+
+#footertext1 {
+  padding: 50px 100px 30px;  
+}
+
+
+#footertext2 h3{
+  padding-left: 370px;
+  padding-top: 80px;
+}
+
+
+.footer1 a{
+  text-decoration: none;
+  height: 100px;   
+  size: 50px;
+}
+.footer1 .fab{
+  color: #444; 
+}
+.footer1 .fas{
+  color: #444; 
+}
+
+.footer1 img{
+  width: 250px;
+  height: 30%; 
+  margin-left: 300px;
+}

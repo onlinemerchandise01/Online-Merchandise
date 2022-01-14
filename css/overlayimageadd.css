@@ -1,0 +1,63 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.over{
+    display: flex;
+    margin: 100px 0px 100px 105px;
+}
+
+.overlayimageadd {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: transparent;
+  }
+  
+  .overlayimageadd:hover .overlay {
+    opacity: 1;
+  }
+  
+  .overlaytext{
+    color:  rgb(243, 61, 91);
+    font-size: 35px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-80%, -50%);
+    text-align: center;
+  }

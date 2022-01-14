@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
+.logo img{
+  width:12%;
+  float: right;
+  position: absolute;
+  right: 20px;;
+ top: 20px;
+}
+
+
+
+
+/* Dropdown Navbar */
+
+.productsdropdown{
+  display: flex;
+}
+
+.productsdropdown p{
+  font-size: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  margin: 0px 100px ;
+  
+}
+
+.dropdown a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(247, 121, 142);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  padding: 3px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  margin: 0 100px 250px;
+  background-color: whitesmoke;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: rgb(247, 121, 142);
+  padding: 2px 16px;
+  color: black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/*footer*/
+
+.footer{
+  display: flex;
+	color :black;
+	text-align: left;
+  margin-top: 150px;
+	background-color: rgb(247, 121, 142);
+	padding-top: 10px;
+  padding-left: 30px;
+}
+.footer{
+  margin:40px 0 0;
+}
+.footer1{
+ width: 50%; 
+}
+#footertext1{
+  padding: 50px 100px 30px;  
+}
+
+#footertext2 h3{
+  padding-left: 370px;
+  padding-top: 80px;
+}
+
+
+.footer1 a{
+  text-decoration: none;
+  height: 100px;   
+  size: 50px;
+}
+.footer1 .fab{
+  color: #444; 
+}
+.footer1 .fas{
+  color: #444; 
+}
+
+.footer1 img{
+  width: 250px;
+  height: 30%; 
+  margin-left: 300px;
+}
+
+
+
+
+ 
+
+
+  
+
+
