@@ -279,7 +279,7 @@ img{
   
  	
  	border: 10px solid rgba(255, 255, 255, 0.952);
-    box-sizing: border-box;
+  box-sizing: border-box;
  	transition-property: width height ;
 
  	transition-duration: 0.5s;
