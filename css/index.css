@@ -249,6 +249,7 @@ nav ul li i {
 
 .flex-container {
   display: flex;
+  position: relative;
  margin-left: 40px;
  margin-right: 35px;
  margin-top: 50px;
@@ -282,23 +283,15 @@ img{
 
  .home{
   
- 	
  	border: 10px solid rgba(255, 255, 255, 0.952);
   box-sizing: border-box;
- 	transition-property: width height ;
-
- 	transition-duration: 0.5s;
- 	transition-delay: 0.1s;
-     	transition: transform ease-in-out;
+ 
 
  }
 
  .home:hover{
-  
- 	width: 855px;
- 	height: 305px;
-
-}
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+  }
 
 .flex-container2 {
   display: flex;
