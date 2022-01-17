@@ -56,3 +56,7 @@ body {
      padding: 10px 25px ; 
      border-radius: 30px;   
  }
+
+ .button:hover{
+  background-color:rgb(243, 61, 91);
+}
