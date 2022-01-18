@@ -61,3 +61,12 @@ body {
     transform: translate(-80%, -50%);
     text-align: center;
   }
+
+
+  /* responsive for mobile device */
+
+  @media only screen and (max-width:468px) and (min-width:320px){
+    .overlayimageadd{
+      visibility: hidden;
+    }
+  }

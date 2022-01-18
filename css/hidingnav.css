@@ -37,10 +37,15 @@ body {
  
   margin: 200px 100px;
   height: 100px; 
-  border-bottom: 3px solid;
+  border-bottom: 2px solid;
   border-image:  linear-gradient( rgb(255, 102, 0),rgb(243, 61, 91));
   border-image-slice: 1;
  
+}
+ 
+
+h3{
+  font-size: 18px;
 }
 
 span{
@@ -48,3 +53,43 @@ span{
   color: rgb(243, 61, 91);
 }
 
+
+/* responsive for mobile device */
+
+
+@media only screen and (max-width:468px) and (min-width:320px){
+  body{
+    margin: 0;
+  }
+  
+  #navbar {
+ 
+    margin-left: 20px;
+    margin-top: 30px;
+    
+  }
+  
+  #navbar a {
+    text-align: left;
+    padding: 5px;
+    font-size: 12px;
+  }
+  
+
+.header{
+  border-bottom: 1px solid;
+  margin: 100px 20px;
+  height: 60px; 
+}
+
+h3{
+  font-size: 15px;
+}
+
+
+span{
+  font-size: 20px;
+}
+
+ 
+}

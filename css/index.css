@@ -1,11 +1,9 @@
 
-
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 
 * {
   box-sizing: border-box;
 }
-
 
 html{
 	height: 100%;
@@ -19,7 +17,6 @@ body {
   overflow-x: hidden;
   margin: 0;
   position: absolute;
-
 }
 
 .logo {
@@ -27,7 +24,7 @@ body {
   float: right;
   position: absolute;
   right: 20px;;
- top: 20px;
+  top: 20px;
 }
 
 .container {
@@ -37,11 +34,7 @@ body {
   width: 100vw;
   min-height: 100vh;
   padding: 15px;
-
 }
-
-
-
 
 .container.show-nav {
   transform: rotate(-20deg);
@@ -78,8 +71,6 @@ body {
   font-size: 26px;
   color: #fff;
 }
-
-
 
 .circle button:focus {
   outline: none;
@@ -134,7 +125,6 @@ nav ul li i {
   margin-right: 10px;
 }
 
-
 .content img {
   max-width: 100%;
 }
@@ -165,7 +155,7 @@ nav ul li i {
 
 .content small {
   color: black;
-  font-style: italic;
+  
   margin-left: 400px;
   font-size: 20px;
 }
@@ -174,9 +164,6 @@ nav ul li i {
   color: rgb(243, 61, 91);
   line-height: 1.5;
 }
-
-
-
 
 .text{
 	margin-left: 40px;
@@ -187,14 +174,10 @@ nav ul li i {
   width: 100%;
 }
 
-
 .text p{
 	color: black;
 	font-size: 25px;
 }
-
-
-
 
 .offer{
 	display: flex;
@@ -202,15 +185,13 @@ nav ul li i {
 	flex-wrap: wrap;
 	justify-content: space-around;
   margin-left: 40px;
-
 }
 
 .offer1{
 	flex-basis: 50%;
 	min-width: 300px;
 	text-align: left;
-	color: black;
-  
+	color: black; 
 }
 
 .offer1 img{
@@ -229,7 +210,6 @@ nav ul li i {
 	   font-size: 20px;
 }
 
-
 .btn{
 	display: inline-block;
 	text-decoration: none;
@@ -245,8 +225,6 @@ nav ul li i {
   background-color:rgb(243, 61, 91) ;
 }
 
-
-
 .flex-container {
   display: flex;
   position: relative;
@@ -254,21 +232,14 @@ nav ul li i {
  margin-right: 35px;
  margin-top: 50px;
 background: transparent;
-  
-
- 
 }
 
 .flex-container > div {
-
- 
   background-color: white;
   margin: 20px;
   padding: 20px;
-
   border-radius: 10px;
   box-shadow: 0px 0px 10px 0px /*#808080*/black;
-
   width: 850px;
   height: 300px;
 }
@@ -276,17 +247,12 @@ background: transparent;
 img{
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
- 
-	
+	border-radius: 10px;	
 }
 
  .home{
-  
  	border: 10px solid rgba(255, 255, 255, 0.952);
   box-sizing: border-box;
- 
-
  }
 
  .home:hover{
@@ -298,26 +264,21 @@ img{
  margin-left: 35px;
  margin-right: 35px;
  margin-top: 50px;
-
 }
 
 .flex-container2 > div {
- 
   margin: 20px;
   padding: 10px;
   margin-top: 100px;
   border-radius: 20px;
   width: 100%;
   height: 200px;
-
-
-
 }
+
 h4{
 	font-size: 40px;
 	color:black;
-	text-align: center;
-	
+	text-align: center;	
 }
 
 .flex-container2 h4 :hover{
@@ -326,7 +287,6 @@ h4{
 
 .flex-container2{
 	background: transparent;
-
 }
 
 .flex-container2 a{
@@ -334,14 +294,12 @@ h4{
   color: rgb(243, 61, 91);
 }
 
-
 .size h2{
   font-size: 30px;
   color:rgb(243, 61, 91) ;
   margin-top: 100px;
   margin-bottom: 100px;
   margin-left: 417px;
-
 }
 
 .sizeicon{
@@ -395,15 +353,16 @@ h4{
   padding-top: 80px;
 }
 
-
 .footer1 a{
   text-decoration: none;
   height: 100px;   
   size: 50px;
 }
+
 .footer1 .fab{
   color: #444; 
 }
+
 .footer1 .fas{
   color: #444; 
 }
@@ -416,6 +375,185 @@ h4{
 
 
 
+/* responsive for mobile device */
 
+
+@media only screen and (max-width:468px) and (min-width:320px){
+ body{
+   margin: 0;
+ }
+
+  .logo {
+    
+    right: 50px;;
+    top: 30px;
+  }
+
+  .container{
+    width: 100%;
+    font-size: 10px;
+    text-align: left;  
+  }
+  
+  .circle-container {
+    top: -50px;
+    left: -50px;
+  }
+  
+  .circle {
+    height: 100px;
+    width: 100px;
+    
+  }
+  .circle button {
+    
+    top: 45%;
+    left: 25%;
+    height: 50px;
+    border: 0;
+    font-size: 16px;
+    
+  }
+
+  
+.circle button#close {
+  top: 50%;
+  left: 46%;
+}
+
+.content h1{
+  font-size: 28px;
+  text-align: left;
+  padding-left: 0;
+  margin-left: 0;
+}
+.content small{
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.text>p{
+	margin-left: -40px;
+  margin-right: 10px;
+	font-size: 15px;
+	margin-top: 5px;
+	line-height: 15px;
+  padding: 0;
+  width: 60%;
+}
+
+
+.offer{
+	display: flex;
+	align-items: center;	
+ width: 40%;
+  margin-left: 80px;
+  margin-top: -300px;
  
+}
+.offer1 p{
+  font-size: 15px;
 
+}
+.offer1 h3{
+  font-size: 20px;
+  
+}
+
+.offer img{
+  width: 70%;
+}
+
+.flex-container{
+  margin: 20px;
+}
+
+.flex-container > div {
+  
+  margin: 5px ;
+  padding: 0px;
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.flex-container2 > div {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 20px;
+  width: 60%;
+  height: 0px;
+}
+
+h4{
+	font-size: 15px;
+	color:black;
+	text-align: left;	
+}
+
+.size{
+  margin-top: 100px;
+}
+.size h2{
+  font-size: 15px;
+  color:rgb(243, 61, 91) ;
+  margin: 30px ;
+  text-align: left;
+}
+
+.sizeicon{
+  margin-left:40px; 
+}
+
+.icon{
+  margin: 5px;
+  width: 13%;
+  height: 50px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 20px rgb(214, 214, 214);
+}
+
+.icon .fas {
+  float: center;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 25px;
+
+}
+
+.footer{
+  margin-top: 0;
+  margin-bottom: -5px;
+
+}
+.footer1{
+ width: 20%; 
+}
+#footertext1{
+  padding: 0;  
+  text-align: left;
+}
+
+.footer1 .fab{
+  font-size: 15px;
+}
+
+.footer1 .fas{
+  font-size: 15px;
+}
+.footer1 img{
+  width: 80px;
+  height: 20%; 
+  margin-left: 120px;
+}
+
+#footertext2 h3{
+  font-size: 10px;
+  text-align: left;
+  margin-left: 0;
+  margin-top: 80px;
+  padding: 0 0 0 140px  ;
+}
+
+}
