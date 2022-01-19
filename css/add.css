@@ -61,6 +61,11 @@ body {
   background-color:rgb(243, 61, 91);
 }
 
+
+/* responsive for mobile device */
+
+
+
 @media only screen and (max-width:468px) and (min-width:320px){
   .add{
     margin: 0;

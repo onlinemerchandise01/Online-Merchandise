@@ -1,7 +1,20 @@
-body{
 
-	box-sizing: content-box;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
 }
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+}
+
 .menu{
 	position: fixed;
 	height: 100vh;
@@ -59,3 +72,33 @@ nav:hover{
 
 
 	
+
+	
+/* responsive for mobile device */
+    
+    
+@media only screen and (max-width:468px) and (min-width:320px){
+	body{
+	  margin: 0;
+	}
+   
+
+nav{
+
+	margin-top: 200%;
+}
+
+.menu:hover{
+	width: 50vw;
+}
+li{
+	line-height: 1em;
+	letter-spacing: .1em;
+	
+}
+
+a{
+		font-size: 15px;
+		font-weight: 600;
+}
+}

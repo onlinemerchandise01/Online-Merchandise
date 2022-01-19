@@ -192,12 +192,11 @@ section{
     margin: 0;
   }
  
-   .logo {
-     
-     right: 50px;;
-     top: 30px;
+  .logo img {
+    width:15%;  
+     right: 10px;
+     top:30px;
    }
-    
 
    section{
     margin: 50px;
